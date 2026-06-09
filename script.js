@@ -37,11 +37,11 @@ if(!gameStart){
 boxes.forEach((box)=>{
     box.addEventListener('click',()=>{
         if(turn){
-            box.innerText = 'X';
+            box.innerText = 'x';
             turn = false;
             player.innerText = `${player2.value}, you're up`;
         }else{
-            box.innerText = 'O';
+            box.innerText = 'o';
             turn = true;
             player.innerText = `${player1.value}, you're up`;
         }
