@@ -21,7 +21,7 @@ body{
     gap: 1rem;
 }
 
-#box{
+.game button{
     height: 18vmin;
     width: 18vmin;
     background-color: white;

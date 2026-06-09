@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let boxes = document.querySelectorAll('#box');
+let boxes = document.querySelectorAll('.game button');
 let game = document.querySelector('.game');
 let start = document.querySelector('#submit');
 let pname = document.querySelector('.pname');
