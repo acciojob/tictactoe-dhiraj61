@@ -65,7 +65,7 @@ const checkWinner = () => {
         let val3 = boxes[pattern[2]].innerText;
         if(val1 !== '' && val2 !== '' && val3 !== '' && val1 === val2 && val2 === val3){
             console.log("winner");
-            if(val1 === 'O' && val2 === 'O' && val3 === 'O'){
+            if(val1 === 'o' && val2 === 'o' && val3 === 'o'){
                 player.innerText = `${player2.value}, congratulations you won!`
             }else{
                 player.innerText = `${player1.value}, congratulations you won!`
